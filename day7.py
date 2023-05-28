@@ -18,7 +18,7 @@ while(flag == 0):
             print(f"You won! The word was {chosen_word}")
             flag = 1
     else:
-        opport =-1
+        opport -= 1
         print(f"Wrong guess! Only {opport} more opportunities.")
         if opport == 0:
             print(f"Sorry, you lost. The word was {chosen_word}")
